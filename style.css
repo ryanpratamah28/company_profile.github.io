@@ -1079,9 +1079,13 @@ footer .container .kopikanan{
         /* box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.07); */
     }
 
+    .testimonial .card-testi .content-card p{
+        font-size: 14px;
+    }
+
     .testimonial .card-testi .content-card .profile-picture .title-card p{
         color: var(--text-muted-color);
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .testimonial .card-testi .content-card .profile-picture img{
