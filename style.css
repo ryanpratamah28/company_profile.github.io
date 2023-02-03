@@ -272,10 +272,33 @@ nav {
 /* Testimonial */
 .testimonial .card-testi{
     margin-top: 20px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.07); */
 }
 
+.testimonial .card-testi .content-card{
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.testimonial .card-testi .content-card .profile-picture .title-card p{
+    color: var(--text-muted-color);
+    font-size: 16px;
+}
+
+.testimonial .card-testi .content-card .profile-picture img{
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial .card-testi .content-card .profile-picture .title-card h4{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
 .testimonial .card-testi .content-card p{
-    text-align: center;
+    text-align: start;
 }
 
 /* Footer */
@@ -1049,12 +1072,25 @@ footer .container .kopikanan{
         top: 500px;
     }
 
-    .testimonial .card-testi .content-card p{
+    
+    .testimonial .card-testi{
+        margin-top: 20px;
+        background: #FFFFFF;
+        /* box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.07); */
+    }
+
+    .testimonial .card-testi .content-card .profile-picture .title-card p{
+        color: var(--text-muted-color);
         font-size: 12px;
     }
 
-    .testimonial .card-testi .content-card h4{
-        text-align: center;
+    .testimonial .card-testi .content-card .profile-picture img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial .card-testi .content-card .profile-picture .title-card h4{
+        font-weight: 700;
         font-size: 16px;
     }
 
