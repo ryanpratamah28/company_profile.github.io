@@ -7,7 +7,6 @@
     --text-muted-color: #919191;
 }
 
-
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -20,15 +19,16 @@ body::-webkit-scrollbar{
 
 .image img {
     position: absolute;
-    right: -685px;
+    right: 0px;
     width: 576px;
     height: 900px;
 }
 
 .image {
     position: absolute;
-    margin-left: 853px;
+    margin-left: 765px;
     margin-top: -40px;
+    right: 0;
 }
 
 nav {
@@ -44,6 +44,7 @@ nav {
 
 .navbar-nav {
     margin: 30px 0;
+    max-width: 100%;
 }
 
 .navbar-nav .nav-item a{
@@ -150,6 +151,10 @@ nav {
     display: flex;
     margin-top: -570px;
     margin-left: 20px;
+}
+
+#carouselExampleAutoPlaying.carousel.slide{
+    right: 0;
 }
 
 .content2 {
@@ -374,12 +379,23 @@ footer .container .kopikanan{
 /* Responsive */
 
 @media screen and (max-width: 1400px) {
-    .image img {
-        display: none;
+    .pages .container{
+        max-width: 1200px;
     }
 
-    .carousel{
-        display: none;
+    .image img {
+        position: absolute;
+        right: 0;
+        width: 580px;
+    }
+
+    .navbar img{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .content1 .text h1 {
+        width: 650px;
     }
     
     .content1-2 .multiple-items {
@@ -389,6 +405,10 @@ footer .container .kopikanan{
     .flexUl .con{
         margin-top: 10px;
     }
+
+    #carouselExampleAutoPlaying.carousel.slide{
+        right: 0;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -397,7 +417,7 @@ footer .container .kopikanan{
     }
 
     .pages .container {
-        max-width: 930px;
+        max-width: 910px;
     }
 
     .image img {
@@ -439,7 +459,7 @@ footer .container .kopikanan{
     }
     
     footer .container{
-        max-width: 1000px;
+        max-width: 910px;
     }
 
     footer .container .footer-content .footer-item{
@@ -448,8 +468,50 @@ footer .container .kopikanan{
 }
 
 @media screen and (max-width: 991px) {
+    .navbar img {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    footer .container .footer-content .footer-brand img{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
     .pages .container {
         max-width: 750px;
+    }
+
+    .pages .container .title p {
+        font-weight: 600;
+        color: var(--blue-color);
+        font-size: 20px;
+    }
+
+    .pages .container .title h1 {
+        font-weight: 700;
+        color: var(--black-color);
+        font-size: 40px;
+    }
+
+    .pages .container .content1 .title p {
+        font-weight: 500;
+        color: var(--blue-color);
+        font-size: 20px;
+    }
+
+    .pages .container .text h1{
+        font-weight: 800;
+        color: var(--black-color);
+        font-size: 40px;
+        max-width: 700px;
+    }
+
+    .pages .container .text p{
+        font-weight: 500;
+        color: var(--text-muted-color);
+        font-size: 18px;
+        width: 600px;
     }
 
     .carousel-indicators{
@@ -462,24 +524,6 @@ footer .container .kopikanan{
 
     .carousel{
         display: none;
-    }
-
-    .pages .container .content1 .title p {
-        font-weight: 500;
-        color: var(--blue-color);
-        font-size: 18px;
-    }
-
-    .pages .container .text h1{
-        font-weight: 800;
-        color: var(--black-color);
-        font-size: 30px;
-    }
-
-    .pages .container .text p{
-        font-weight: 500;
-        color: var(--text-muted-color);
-        font-size: 16px;
     }
 
     .pages .container .text button{
@@ -508,13 +552,13 @@ footer .container .kopikanan{
     .pages .container .content2 .title p {
         font-weight: 500;
         color: var(--blue-color);
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .pages .container .content2 .title h1{
         font-weight: 800;
         color: var(--black-color);
-        font-size: 36px;
+        font-size: 40px;
         margin-bottom: 10px;
     }
 
@@ -523,11 +567,11 @@ footer .container .kopikanan{
     }
 
     .pages .container .content2 .tab button{
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .pages .container .content2 .contain-tabs .tabcontent p{
-        font-size: 16px;
+        font-size: 18px;
         margin: 10px 0 0 0;
     }
 
@@ -538,6 +582,14 @@ footer .container .kopikanan{
 
     .flexUl .con{
         margin-top: 10px;
+    }
+
+    .flexUl .con p{
+        font-size: 25px;
+    }
+
+    .flexUl .con ul li {
+        font-size: 18px;
     }
 
     .vision-mission .content img {
@@ -570,9 +622,28 @@ footer .container .kopikanan{
     }
 
     .vision-mission .content .desc .box p {
-        font-size: 20px;
+        font-size: 18px;
         color: var(--text-muted-color);
         font-weight: 500;
+    }
+
+    .testimonial .card-testi .content-card p{
+        font-size: 18px;
+    }
+
+    .testimonial .card-testi .content-card .profile-picture .title-card p{
+        color: var(--text-muted-color);
+        font-size: 18px;
+    }
+
+    .testimonial .card-testi .content-card .profile-picture img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .testimonial .card-testi .content-card .profile-picture .title-card h4{
+        font-weight: 700;
+        font-size: 25px;
     }
 
     footer .container{
@@ -581,6 +652,31 @@ footer .container .kopikanan{
 
     footer .container .footer-content .footer-item{
         max-width: 600px;
+    }
+
+    footer .container .footer-content .footer-desc p{
+        font-size: 20px;
+
+    }
+
+    footer .container .footer-content .footer-social a{
+        font-size: 20px;
+    }
+
+    footer .container .footer-content .footer-item h1{
+        font-size: 20px;
+    }
+
+    footer .container .footer-content .footer-item .menu a{
+        font-size: 18px;
+    }
+
+    footer .container .footer-content .footer-item .no-telp p{
+        font-size: 20px;
+    }
+
+    footer .container .kopikanan{
+        font-size: 20px;
     }
 }
 
@@ -757,7 +853,7 @@ footer .container .kopikanan{
     }
 
     footer .container .footer-content .footer-item h1{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 700;
         margin-top: 40px;
         margin-bottom: 25px;
