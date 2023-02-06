@@ -11,7 +11,7 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
 
@@ -47,7 +47,7 @@ nav {
     max-width: 100%;
 }
 
-.navbar-nav .nav-item a{
+.navbar-nav .nav-item a {
     font-size: 16px;
     font-weight: 600;
     color: var(--black-color);
@@ -153,7 +153,7 @@ nav {
     margin-left: 20px;
 }
 
-#carouselExampleAutoPlaying.carousel.slide{
+#carouselExampleAutoPlaying.carousel.slide {
     right: 0;
 }
 
@@ -238,6 +238,100 @@ nav {
     color: var(--text-muted-color);
 }
 
+/* Portofolio */
+.portofolio {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.wrapper-portofolio .porto-content{
+    margin-bottom: 150px;
+}
+
+.porto-content {
+    display: flex;
+    margin: 100px 0 0;
+}
+
+.porto-content .porto-img img {
+    position: absolute;
+    left: 0;
+    width: 697px;
+    height: 376px;
+}
+
+.porto-content .porto-img-right img {
+    position: absolute;
+    right: 0;
+    width: 697px;
+    height: 376px;
+}
+
+.porto-content .container {
+    margin: 0 30px 0 600px;
+}
+
+.porto-content .container .title-desc h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.porto-content .container .title-desc h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.porto-content .container .client {
+    margin-top: 100px;
+}
+
+.porto-content .container .client p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-muted-color);
+}
+
+.porto-content .container-left {
+    margin: 0 600px 0 0;
+}
+
+.porto-content .container-left .title-desc h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.porto-content .container-left .title-desc h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.porto-content .container-left .client {
+    margin-top: 100px;
+}
+
+.porto-content .container-left .client p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-muted-color);
+}
+
+.btn-outline-info {
+    display: block;
+    margin: auto;
+    width: 174px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0%;
+    color: var(--blue-color);
+    border-color: var(--blue-color);
+    padding: 16px 32px;
+}
+
+.btn:hover {
+    color: var(--white-color);
+}
+
+
 /* Vision Mission */
 
 .vision-mission .content {
@@ -275,89 +369,89 @@ nav {
 }
 
 /* Testimonial */
-.testimonial .card-testi{
+.testimonial .card-testi {
     margin-top: 20px;
     background: #FFFFFF;
     /* box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.07); */
 }
 
-.testimonial .card-testi .content-card{
+.testimonial .card-testi .content-card {
     padding-top: 20px;
     padding-right: 25px;
 }
 
-.testimonial .card-testi .content-card .profile-picture .title-card p{
+.testimonial .card-testi .content-card .profile-picture .title-card p {
     color: var(--text-muted-color);
     font-size: 16px;
 }
 
-.testimonial .card-testi .content-card .profile-picture img{
+.testimonial .card-testi .content-card .profile-picture img {
     width: 60px;
     height: 60px;
 }
 
-.testimonial .card-testi .content-card .profile-picture .title-card h4{
+.testimonial .card-testi .content-card .profile-picture .title-card h4 {
     font-weight: 700;
     font-size: 25px;
 }
 
 
-.testimonial .card-testi .content-card p{
+.testimonial .card-testi .content-card p {
     text-align: start;
 }
 
 /* Footer */
 
-footer{
+footer {
     border: solid 0.5px black;
     margin-top: 100px;
 }
 
-footer .container{
+footer .container {
     max-width: 1200px;
 }
 
-footer .container .footer-content .footer-brand img{
+footer .container .footer-content .footer-brand img {
     width: 81px;
     margin-bottom: 20px;
 }
 
-footer .container .footer-content .footer-desc p{
+footer .container .footer-content .footer-desc p {
     font-size: 14px;
     color: var(--text-muted-color);
     margin-bottom: 20px;
 }
 
-footer .container .footer-content .footer-social a{
+footer .container .footer-content .footer-social a {
     font-size: 14px;
     margin-bottom: 15px;
     text-decoration: none;
     color: var(--text-muted-color);
 }
 
-footer .container .footer-content{
+footer .container .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 52px 0;
 }
 
-footer .container .footer-content .footer-item{
+footer .container .footer-content .footer-item {
     max-width: 400px;
 }
 
-footer .container .footer-content .footer-item h1{
+footer .container .footer-content .footer-item h1 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-footer .container .footer-content .footer-item .menu{
+footer .container .footer-content .footer-item .menu {
     display: flex;
     flex-direction: column;
 }
 
-footer .container .footer-content .footer-item .menu a{
+footer .container .footer-content .footer-item .menu a {
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
@@ -365,12 +459,12 @@ footer .container .footer-content .footer-item .menu a{
     margin: 5px 0;
 }
 
-footer .container .footer-content .footer-item .no-telp p{
+footer .container .footer-content .footer-item .no-telp p {
     font-size: 32px;
     font-weight: 500;
 }
 
-footer .container .kopikanan{
+footer .container .kopikanan {
     margin: 0 0;
     text-align: center;
     padding: 15px 10px;
@@ -379,7 +473,7 @@ footer .container .kopikanan{
 /* Responsive */
 
 @media screen and (max-width: 1400px) {
-    .pages .container{
+    .pages .container {
         max-width: 1200px;
     }
 
@@ -389,30 +483,56 @@ footer .container .kopikanan{
         width: 580px;
     }
 
-    .navbar img{
+    .navbar img {
         margin-left: 40px;
         margin-right: 40px;
     }
 
+    .porto-content .porto-img img{
+        position: absolute;
+        left: 0;
+        width: 610px;
+        height: 360px;
+    }
+
+    .porto-content .porto-img-right img{
+        position: absolute;
+        right: 0;
+        width: 610px;
+        height: 360px;
+    }
+
+    .wrapper-portofolio .porto-content{
+        margin-bottom: 140px;
+    }
+
+    .porto-content .container-left {
+        margin: 0 610px 0 0;
+    }
+
+    .porto-content .container .client {
+        margin-top: 35px;
+    }
+    
     .content1 .text h1 {
         width: 650px;
     }
-    
+
     .content1-2 .multiple-items {
         height: 200px;
     }
 
-    .flexUl .con{
+    .flexUl .con {
         margin-top: 10px;
     }
 
-    #carouselExampleAutoPlaying.carousel.slide{
+    #carouselExampleAutoPlaying.carousel.slide {
         right: 0;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .carousel-indicators{
+    .carousel-indicators {
         top: 450px;
     }
 
@@ -424,26 +544,120 @@ footer .container .kopikanan{
         display: none;
     }
 
-    .carousel{
+    .carousel {
         display: none;
     }
 
     .content1-2 {
         margin: 50px 0 0 0;
     }
-    
+
     .content1-2 p {
         margin-left: 40px;
         margin-top: -31px;
         color: var(--text-muted-color);
     }
-    
-    .flexUl .con{
+
+    .flexUl .con {
         margin-top: 10px;
     }
 
+    .flexUl .con p {
+        font-size: 25px;
+    }
+
+    .flexUl .con ul li {
+        font-size: 20px;
+    }
+
+    .portofolio {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .porto-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0;
+    }
+
+    .wrapper-portofolio .porto-content{
+        margin-bottom: 120px;
+    }
+
+    .porto-content .porto-img img {
+        position: relative;
+        width: 890px;
+        height: auto;
+        left: 0;
+        border-radius: 15px;
+    }
+
+    .porto-content .porto-img-right img {
+        position: relative;
+        width: 890px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .porto-content .container {
+        margin: 30px 0 30px 0;
+    }
+
+    .porto-content .container .title-desc h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .porto-content .container .title-desc h6 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .porto-content .container .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container .client img{
+        width: 230px;
+    }
+
+    .porto-content .container .client p {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--text-muted-color);
+    }
+
+    .porto-content .container-left {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .porto-content .container-left .title-desc h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .porto-content .container-left .title-desc h6 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .porto-content .container-left .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container-left .client img{
+        width: 230px;
+    }
+
+    .porto-content .container-left .client p {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--text-muted-color);
+    }
+
     .vision-mission .content .box {
-        margin-bottom: 78px;
+        margin-bottom: 5px;
     }
 
     .vision-mission .content .desc .box h6 {
@@ -457,12 +671,12 @@ footer .container .kopikanan{
     .vision-mission .content .desc .box p {
         font-size: 16px;
     }
-    
-    footer .container{
+
+    footer .container {
         max-width: 910px;
     }
 
-    footer .container .footer-content .footer-item{
+    footer .container .footer-content .footer-item {
         max-width: 600px;
     }
 }
@@ -473,7 +687,7 @@ footer .container .kopikanan{
         margin-right: 0px;
     }
 
-    footer .container .footer-content .footer-brand img{
+    footer .container .footer-content .footer-brand img {
         width: 150px;
         margin-bottom: 20px;
     }
@@ -500,21 +714,21 @@ footer .container .kopikanan{
         font-size: 20px;
     }
 
-    .pages .container .text h1{
+    .pages .container .text h1 {
         font-weight: 800;
         color: var(--black-color);
         font-size: 40px;
         max-width: 700px;
     }
 
-    .pages .container .text p{
+    .pages .container .text p {
         font-weight: 500;
         color: var(--text-muted-color);
         font-size: 18px;
         width: 600px;
     }
 
-    .carousel-indicators{
+    .carousel-indicators {
         top: 500px;
     }
 
@@ -522,11 +736,11 @@ footer .container .kopikanan{
         display: none;
     }
 
-    .carousel{
+    .carousel {
         display: none;
     }
 
-    .pages .container .text button{
+    .pages .container .text button {
         border: none;
         padding: 10px 20px;
         background-color: #17A2B8;
@@ -538,13 +752,13 @@ footer .container .kopikanan{
     .content1-2 {
         margin: 50px 0 0 0;
     }
-    
+
     .content1-2 p {
         margin-left: 40px;
         margin-top: -31px;
         color: #919191;
     }
-    
+
     .content1-2 .multiple-items {
         height: 200px;
     }
@@ -555,41 +769,127 @@ footer .container .kopikanan{
         font-size: 20px;
     }
 
-    .pages .container .content2 .title h1{
+    .pages .container .content2 .title h1 {
         font-weight: 800;
         color: var(--black-color);
         font-size: 40px;
         margin-bottom: 10px;
     }
 
-    .pages .container .content2 .tab{
+    .pages .container .content2 .tab {
         font-size: 28px;
     }
 
-    .pages .container .content2 .tab button{
+    .pages .container .content2 .tab button {
         font-size: 30px;
     }
 
-    .pages .container .content2 .contain-tabs .tabcontent p{
+    .pages .container .content2 .contain-tabs .tabcontent p {
         font-size: 18px;
         margin: 10px 0 0 0;
     }
 
-    .flexUl{
+    .flexUl {
         flex-wrap: wrap;
         flex-direction: column;
     }
 
-    .flexUl .con{
+    .flexUl .con {
         margin-top: 10px;
     }
 
-    .flexUl .con p{
+    .flexUl .con p {
         font-size: 25px;
     }
 
     .flexUl .con ul li {
         font-size: 18px;
+    }
+
+    .portofolio {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .porto-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0;
+    }
+
+    .wrapper-portofolio .porto-content{
+        margin-bottom: 100px;
+    }
+
+    .porto-content .porto-img img {
+        position: relative;
+        width: 725px;
+        height: auto;
+        left: 0;
+        border-radius: 15px;
+    }
+
+    .porto-content .porto-img-right img {
+        position: relative;
+        width: 725px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .porto-content .container {
+        margin: 30px 0 30px 0;
+    }
+
+    .porto-content .container .title-desc h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .porto-content .container .title-desc h6 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .porto-content .container .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container .client img{
+        width: 200px;
+    }
+
+    .porto-content .container .client p {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--text-muted-color);
+    }
+
+    .porto-content .container-left {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .porto-content .container-left .title-desc h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .porto-content .container-left .title-desc h6 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .porto-content .container-left .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container-left .client img{
+        width: 200px;
+    }
+
+    .porto-content .container-left .client p {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--text-muted-color);
     }
 
     .vision-mission .content img {
@@ -598,7 +898,7 @@ footer .container .kopikanan{
         margin-bottom: 30px;
     }
 
-    .vision-mission .content{
+    .vision-mission .content {
         display: flex;
         flex-direction: column;
     }
@@ -608,7 +908,7 @@ footer .container .kopikanan{
         padding: 20px 25px;
         margin-bottom: 35px;
     }
-    
+
     .vision-mission .content .desc .box h6 {
         font-size: 16px;
         color: var(--blue-color);
@@ -627,61 +927,61 @@ footer .container .kopikanan{
         font-weight: 500;
     }
 
-    .testimonial .card-testi .content-card p{
+    .testimonial .card-testi .content-card p {
         font-size: 18px;
     }
 
-    .testimonial .card-testi .content-card .profile-picture .title-card p{
+    .testimonial .card-testi .content-card .profile-picture .title-card p {
         color: var(--text-muted-color);
         font-size: 18px;
     }
 
-    .testimonial .card-testi .content-card .profile-picture img{
+    .testimonial .card-testi .content-card .profile-picture img {
         width: 60px;
         height: 60px;
     }
 
-    .testimonial .card-testi .content-card .profile-picture .title-card h4{
+    .testimonial .card-testi .content-card .profile-picture .title-card h4 {
         font-weight: 700;
         font-size: 25px;
     }
 
-    footer .container{
+    footer .container {
         max-width: 750px;
     }
 
-    footer .container .footer-content .footer-item{
+    footer .container .footer-content .footer-item {
         max-width: 600px;
     }
 
-    footer .container .footer-content .footer-desc p{
+    footer .container .footer-content .footer-desc p {
         font-size: 20px;
 
     }
 
-    footer .container .footer-content .footer-social a{
+    footer .container .footer-content .footer-social a {
         font-size: 20px;
     }
 
-    footer .container .footer-content .footer-item h1{
+    footer .container .footer-content .footer-item h1 {
         font-size: 20px;
     }
 
-    footer .container .footer-content .footer-item .menu a{
+    footer .container .footer-content .footer-item .menu a {
         font-size: 18px;
     }
 
-    footer .container .footer-content .footer-item .no-telp p{
+    footer .container .footer-content .footer-item .no-telp p {
         font-size: 20px;
     }
 
-    footer .container .kopikanan{
+    footer .container .kopikanan {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .navbar .container-fluid img{
+    .navbar .container-fluid img {
         margin-left: 0px;
     }
 
@@ -689,11 +989,23 @@ footer .container .kopikanan{
         max-width: 650px;
     }
 
+    .pages .container .title p {
+        font-weight: 600;
+        color: var(--blue-color);
+        font-size: 18px;
+    }
+
+    .pages .container .title h1 {
+        font-weight: 700;
+        color: var(--black-color);
+        font-size: 30px;
+    }
+
     .image img {
         display: none;
     }
 
-    .carousel{
+    .carousel {
         display: none;
     }
 
@@ -703,21 +1015,21 @@ footer .container .kopikanan{
         font-size: 18px;
     }
 
-    .pages .container .text h1{
+    .pages .container .text h1 {
         font-weight: 800;
         color: var(--black-color);
         font-size: 30px;
         max-width: 400px;
     }
 
-    .pages .container .text p{
+    .pages .container .text p {
         font-weight: 500;
         color: var(--text-muted-color);
         font-size: 16px;
         width: 400px;
     }
 
-    .pages .container .text button{
+    .pages .container .text button {
         border: none;
         padding: 10px 20px;
         background-color: #17A2B8;
@@ -729,13 +1041,13 @@ footer .container .kopikanan{
     .content1-2 {
         margin: 50px 0 0 0;
     }
-    
+
     .content1-2 p {
         margin-left: 40px;
         margin-top: -31px;
         color: #919191;
     }
-    
+
     .content1-2 .multiple-items {
         width: 470px;
         height: 200px;
@@ -747,44 +1059,139 @@ footer .container .kopikanan{
         font-size: 18px;
     }
 
-    .pages .container .content2 .title h1{
+    .pages .container .content2 .title h1 {
         font-weight: 800;
         color: var(--black-color);
-        font-size: 36px;
+        font-size: 30px;
         max-width: 550px;
         margin-bottom: 10px;
     }
 
-    .pages .container .content2 .tab{
+    .pages .container .content2 .tab {
         font-size: 28px;
         max-width: 470px;
     }
 
-    .pages .container .content2 .tab button{
+    .pages .container .content2 .tab button {
         font-size: 28px;
     }
 
-    .pages .container .content2 .contain-tabs .tabcontent p{
+    .pages .container .content2 .contain-tabs .tabcontent p {
         font-size: 16px;
         margin: 10px 0 0 0;
         max-width: 430px;
     }
 
-    .flexUl{
+    .flexUl {
         flex-wrap: wrap;
         flex-direction: column;
     }
 
-    .flexUl .con{
+    .flexUl .con {
         margin-top: 10px;
     }
 
-    .carousel-indicators{
+    .flexUl .con p {
+        font-size: 20px;
+    }
+
+    .flexUl .con ul li {
+        font-size: 16px;
+    }
+
+    .carousel-indicators {
         top: 740px;
     }
 
-    .carousel-indicators{
+    .carousel-indicators {
         top: 500px;
+    }
+
+    
+    .portofolio {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .porto-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0;
+    }
+
+    .wrapper-portofolio .porto-content{
+        margin-bottom: 80px;
+    }
+
+    .porto-content .porto-img img {
+        position: relative;
+        width: 530px;
+        height: auto;
+        left: 0;
+        border-radius: 15px;
+    }
+
+    .porto-content .porto-img-right img {
+        position: relative;
+        width: 530px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .porto-content .container {
+        margin: 30px 0 30px 0;
+    }
+
+    .porto-content .container .title-desc h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .porto-content .container .title-desc h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .porto-content .container .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container .client img{
+        width: 130px;
+    }
+
+    .porto-content .container .client p {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-muted-color);
+    }
+
+    .porto-content .container-left {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .porto-content .container-left .title-desc h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .porto-content .container-left .title-desc h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .porto-content .container-left .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container-left .client img{
+        width: 100px;
+    }
+
+    .porto-content .container-left .client p {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-muted-color);
     }
 
     .vision-mission .content img {
@@ -794,7 +1201,7 @@ footer .container .kopikanan{
         margin-bottom: 30px;
     }
 
-    .vision-mission .content{
+    .vision-mission .content {
         display: flex;
         flex-direction: column;
     }
@@ -804,7 +1211,7 @@ footer .container .kopikanan{
         padding: 20px 25px;
         margin-bottom: 35px;
     }
-    
+
     .vision-mission .content .desc .box h6 {
         font-size: 16px;
         color: var(--blue-color);
@@ -812,54 +1219,69 @@ footer .container .kopikanan{
     }
 
     .vision-mission .content .desc .box h3 {
-        font-size: 25px;
+        font-size: 20px;
         color: var(--black-color);
         font-weight: 600;
     }
 
     .vision-mission .content .desc .box p {
-        font-size: 20px;
+        font-size: 16px;
         color: var(--text-muted-color);
         font-weight: 500;
     }
 
-    footer .container{
+    .testimonial .card-testi .content-card p {
+        font-size: 16px;
+    }
+
+
+    .testimonial .card-testi .content-card .profile-picture img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .testimonial .card-testi .content-card .profile-picture .title-card h4 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    footer .container {
         max-width: 650px;
     }
 
-    footer .container .footer-content .footer-brand img{
+    footer .container .footer-content .footer-brand img {
         width: 120px;
         margin-bottom: 20px;
     }
 
-    footer .container .footer-content .footer-desc p{
+    footer .container .footer-content .footer-desc p {
         font-size: 18px;
         color: var(--text-muted-color);
         margin-bottom: 20px;
     }
 
-    footer .container .footer-content .footer-social a{
+    footer .container .footer-content .footer-social a {
         font-size: 18px;
         margin-bottom: 15px;
         text-decoration: none;
         color: var(--text-muted-color);
     }
 
-    footer .container .footer-content{
+    footer .container .footer-content {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         padding: 20px 0;
     }
 
-    footer .container .footer-content .footer-item h1{
+    footer .container .footer-content .footer-item h1 {
         font-size: 20px;
         font-weight: 700;
         margin-top: 40px;
         margin-bottom: 25px;
     }
 
-    footer .container .footer-content .footer-item .menu a{
+    footer .container .footer-content .footer-item .menu a {
         font-size: 18px;
         font-weight: 500;
         text-decoration: none;
@@ -867,12 +1289,12 @@ footer .container .kopikanan{
         margin: 5px 0;
     }
 
-    footer .container .footer-content .footer-item .no-telp p{
+    footer .container .footer-content .footer-item .no-telp p {
         font-size: 32px;
         font-weight: 500;
     }
 
-    footer .container .kopikanan{
+    footer .container .kopikanan {
         margin: 0 0;
         text-align: center;
         padding: 18px 10px;
@@ -884,12 +1306,24 @@ footer .container .kopikanan{
     .pages .container {
         max-width: 470px;
     }
-    
-    .navbar{
+
+    .pages .container .title p {
+        font-weight: 600;
+        color: var(--blue-color);
+        font-size: 18px;
+    }
+
+    .pages .container .title h1 {
+        font-weight: 700;
+        color: var(--black-color);
+        font-size: 30px;
+    }
+
+    .navbar {
         padding-left: -70px;
     }
 
-    .navbar .container-fluid img{
+    .navbar .container-fluid img {
         margin-left: 10px;
     }
 
@@ -897,7 +1331,7 @@ footer .container .kopikanan{
         display: none;
     }
 
-    .carousel{
+    .carousel {
         display: none;
     }
 
@@ -907,21 +1341,21 @@ footer .container .kopikanan{
         font-size: 18px;
     }
 
-    .pages .container .text h1{
+    .pages .container .text h1 {
         font-weight: 800;
         color: var(--black-color);
         font-size: 30px;
         max-width: 400px;
     }
 
-    .pages .container .text p{
+    .pages .container .text p {
         font-weight: 500;
         color: var(--text-muted-color);
         font-size: 16px;
         width: 400px;
     }
 
-    .pages .container .text button{
+    .pages .container .text button {
         border: none;
         padding: 10px 20px;
         background-color: #17A2B8;
@@ -933,13 +1367,13 @@ footer .container .kopikanan{
     .content1-2 {
         margin: 50px 0 0 0;
     }
-    
+
     .content1-2 p {
         margin-left: 40px;
         margin-top: -31px;
         color: #919191;
     }
-    
+
     .content1-2 .multiple-items {
         width: 470px;
         height: 200px;
@@ -951,44 +1385,139 @@ footer .container .kopikanan{
         font-size: 18px;
     }
 
-    .pages .container .content2 .title h1{
+    .pages .container .content2 .title h1 {
         font-weight: 800;
         color: var(--black-color);
-        font-size: 36px;
+        font-size: 30px;
         max-width: 550px;
         margin-bottom: 10px;
     }
 
-    .pages .container .content2 .tab{
+    .pages .container .content2 .tab {
         font-size: 28px;
         max-width: 470px;
     }
 
-    .pages .container .content2 .tab button{
+    .pages .container .content2 .tab button {
         font-size: 28px;
     }
 
-    .pages .container .content2 .contain-tabs .tabcontent p{
+    .pages .container .content2 .contain-tabs .tabcontent p {
         font-size: 16px;
         margin: 10px 0 0 0;
         max-width: 430px;
     }
 
-    .flexUl{
+    .flexUl {
         flex-wrap: wrap;
         flex-direction: column;
     }
 
-    .flexUl .con{
+    .flexUl .con {
         margin-top: 10px;
     }
 
-    .carousel-indicators{
+    .flexUl .con p {
+        font-size: 20px;
+    }
+
+    .flexUl .con ul li {
+        font-size: 16px;
+    }
+
+    .carousel-indicators {
         top: 800px;
     }
 
-    .carousel-indicators{
+    .carousel-indicators {
         top: 500px;
+    }
+
+    .portofolio {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .porto-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0;
+    }
+
+    .wrapper-portofolio .porto-content{
+        margin-bottom: 50px;
+    }
+    
+
+    .porto-content .porto-img img {
+        position: relative;
+        width: 445px;
+        height: auto;
+        left: 0;
+        border-radius: 15px;
+    }
+
+    .porto-content .porto-img-right img {
+        position: relative;
+        width: 445px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .porto-content .container {
+        margin: 30px 0 30px 0;
+    }
+
+    .porto-content .container .title-desc h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .porto-content .container .title-desc h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .porto-content .container .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container .client img{
+        width: 130px;
+    }
+
+    .porto-content .container .client p {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-muted-color);
+    }
+
+    .porto-content .container-left {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .porto-content .container-left .title-desc h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .porto-content .container-left .title-desc h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .porto-content .container-left .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container-left .client img{
+        width: 100px;
+    }
+
+    .porto-content .container-left .client p {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-muted-color);
     }
 
     .vision-mission .content img {
@@ -997,7 +1526,7 @@ footer .container .kopikanan{
         margin-bottom: 30px;
     }
 
-    .vision-mission .content{
+    .vision-mission .content {
         display: flex;
         flex-direction: column;
     }
@@ -1007,7 +1536,7 @@ footer .container .kopikanan{
         padding: 20px 25px;
         margin-bottom: 35px;
     }
-    
+
     .vision-mission .content .desc .box h6 {
         font-size: 18px;
         color: var(--blue-color);
@@ -1021,13 +1550,57 @@ footer .container .kopikanan{
     }
 
     .vision-mission .content .desc .box p {
-        font-size: 25px;
+        font-size: 16px;
         color: var(--text-muted-color);
         font-weight: 500;
     }
 
-    footer .container{
+    .testimonial .card-testi .content-card p {
+        font-size: 16px;
+    }
+
+    footer .container {
         max-width: 470px;
+    }
+
+    footer .container .footer-content .footer-desc p {
+        font-size: 16px;
+        color: var(--text-muted-color);
+        margin-bottom: 20px;
+    }
+
+    footer .container .footer-content .footer-social a {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-decoration: none;
+        color: var(--text-muted-color);
+    }
+
+    footer .container .footer-content .footer-item h1 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    footer .container .footer-content .footer-item .menu a {
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        color: var(--text-muted-color);
+        margin: 5px 0;
+    }
+
+    footer .container .footer-content .footer-item .no-telp p {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    footer .container .kopikanan {
+        margin: 0 0;
+        text-align: center;
+        font-size: 14px;
+        padding: 18px 10px;
     }
 }
 
@@ -1042,19 +1615,19 @@ footer .container .kopikanan{
         color: var(--blue-color);
         font-size: 12px;
     }
-    
+
     .pages .container .title h1 {
         font-weight: 700;
         color: var(--black-color);
         font-size: 16px;
     }
-    
-    
-    .navbar{
+
+
+    .navbar {
         padding-left: -70px;
     }
 
-    .navbar .container-fluid img{
+    .navbar .container-fluid img {
         margin-left: 10px;
     }
 
@@ -1062,7 +1635,7 @@ footer .container .kopikanan{
         display: none;
     }
 
-    .carousel{
+    .carousel {
         display: none;
     }
 
@@ -1072,21 +1645,21 @@ footer .container .kopikanan{
         font-size: 12px;
     }
 
-    .pages .container .text h1{
+    .pages .container .text h1 {
         font-weight: 800;
         color: var(--black-color);
         font-size: 16px;
         max-width: 300px;
     }
 
-    .pages .container .text p{
+    .pages .container .text p {
         font-weight: 500;
         color: var(--text-muted-color);
         font-size: 12px;
         width: 300px;
     }
 
-    .pages .container .text button{
+    .pages .container .text button {
         border: none;
         padding: 10px 20px;
         background-color: #17A2B8;
@@ -1098,13 +1671,13 @@ footer .container .kopikanan{
     .content1-2 {
         margin: 50px 0 0 0;
     }
-    
+
     .content1-2 p {
         margin-left: 40px;
         margin-top: -31px;
         color: #919191;
     }
-    
+
     .content1-2 .multiple-items {
         width: 300px;
         height: 150px;
@@ -1116,7 +1689,7 @@ footer .container .kopikanan{
         font-size: 12px;
     }
 
-    .pages .container .content2 .title h1{
+    .pages .container .content2 .title h1 {
         font-weight: 800;
         color: var(--black-color);
         font-size: 16px;
@@ -1124,27 +1697,27 @@ footer .container .kopikanan{
         margin-bottom: 10px;
     }
 
-    .pages .container .content2 .tab{
+    .pages .container .content2 .tab {
         font-size: 28px;
         max-width: 300px;
     }
 
-    .pages .container .content2 .tab button{
+    .pages .container .content2 .tab button {
         font-size: 28px;
     }
 
-    .pages .container .content2 .contain-tabs .tabcontent p{
+    .pages .container .content2 .contain-tabs .tabcontent p {
         font-size: 12px;
         margin: 10px 0 0 0;
         max-width: 430px;
     }
 
-    .flexUl{
+    .flexUl {
         flex-wrap: wrap;
         flex-direction: column;
     }
 
-    .flexUl .con{
+    .flexUl .con {
         margin-top: 10px;
     }
 
@@ -1154,44 +1727,130 @@ footer .container .kopikanan{
         font-weight: 600;
         color: var(--black-color);
     }
-    
+
     .flexUl .con ul li {
         font-size: 12px;
         color: var(--text-muted-color);
     }
 
-    .carousel-indicators{
+    .carousel-indicators {
         top: 800px;
     }
 
-    .carousel-indicators{
+    .carousel-indicators {
         top: 500px;
     }
 
-    
-    .testimonial .card-testi{
+
+    .testimonial .card-testi {
         margin-top: 20px;
         background: #FFFFFF;
         /* box-shadow: 0px 4px 57px rgba(0, 0, 0, 0.07); */
     }
 
-    .testimonial .card-testi .content-card p{
+    .testimonial .card-testi .content-card p {
         font-size: 14px;
     }
 
-    .testimonial .card-testi .content-card .profile-picture .title-card p{
+    .testimonial .card-testi .content-card .profile-picture .title-card p {
         color: var(--text-muted-color);
         font-size: 14px;
     }
 
-    .testimonial .card-testi .content-card .profile-picture img{
+    .testimonial .card-testi .content-card .profile-picture img {
         width: 50px;
         height: 50px;
     }
 
-    .testimonial .card-testi .content-card .profile-picture .title-card h4{
+    .testimonial .card-testi .content-card .profile-picture .title-card h4 {
         font-weight: 700;
         font-size: 16px;
+    }
+
+    .portofolio {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .wrapper-portofolio .porto-content{
+        margin-bottom: 30px;
+    }
+    
+    .porto-content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0;
+    }
+
+    .porto-content .porto-img img {
+        position: relative;
+        width: 275px;
+        height: auto;
+        left: 0;
+        border-radius: 15px;
+    }
+
+    .porto-content .porto-img-right img {
+        position: relative;
+        width: 275px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .porto-content .container {
+        margin: 30px 0 30px 0;
+    }
+
+    .porto-content .container .title-desc h1 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .porto-content .container .title-desc h6 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .porto-content .container .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container .client img{
+        width: 100px;
+    }
+
+    .porto-content .container .client p {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text-muted-color);
+    }
+
+    .porto-content .container-left {
+        margin: 30px 10px 30px 10px;
+    }
+
+    .porto-content .container-left .title-desc h1 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .porto-content .container-left .title-desc h6 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .porto-content .container-left .client {
+        margin-top: 10px;
+    }
+
+    .porto-content .container-left .client img{
+        width: 100px;
+    }
+
+    .porto-content .container-left .client p {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text-muted-color);
     }
 
     .vision-mission .content {
@@ -1204,7 +1863,7 @@ footer .container .kopikanan{
         margin-bottom: 30px;
     }
 
-    .vision-mission .content{
+    .vision-mission .content {
         display: flex;
         flex-direction: column;
     }
@@ -1214,7 +1873,7 @@ footer .container .kopikanan{
         padding: 20px 25px;
         margin-bottom: 35px;
     }
-    
+
     .vision-mission .content .desc .box h6 {
         font-size: 10px;
         color: var(--blue-color);
@@ -1233,32 +1892,31 @@ footer .container .kopikanan{
         font-weight: 500;
     }
 
-    footer .container{
+    footer .container {
         max-width: 300px;
     }
 
-    
-    footer .container .footer-content .footer-desc p{
+    footer .container .footer-content .footer-desc p {
         font-size: 14px;
         color: var(--text-muted-color);
         margin-bottom: 20px;
     }
 
-    footer .container .footer-content .footer-social a{
+    footer .container .footer-content .footer-social a {
         font-size: 14px;
         margin-bottom: 15px;
         text-decoration: none;
         color: var(--text-muted-color);
     }
 
-    footer .container .footer-content .footer-item h1{
+    footer .container .footer-content .footer-item h1 {
         font-size: 18px;
         font-weight: 700;
         margin-top: 40px;
         margin-bottom: 25px;
     }
 
-    footer .container .footer-content .footer-item .menu a{
+    footer .container .footer-content .footer-item .menu a {
         font-size: 14px;
         font-weight: 500;
         text-decoration: none;
@@ -1266,12 +1924,12 @@ footer .container .kopikanan{
         margin: 5px 0;
     }
 
-    footer .container .footer-content .footer-item .no-telp p{
+    footer .container .footer-content .footer-item .no-telp p {
         font-size: 32px;
         font-weight: 500;
     }
 
-    footer .container .kopikanan{
+    footer .container .kopikanan {
         margin: 0 0;
         text-align: center;
         font-size: 14px;
